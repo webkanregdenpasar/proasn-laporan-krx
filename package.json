@@ -1,17 +1,22 @@
 {
-  "name": "bkn-proasn",
-  "version": "1.0.0",
+  "name": "proasn-minutes",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "firebase": "^10.8.0",
-    "uuid": "^9.0.0",
     "next": "14.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "firebase": "^10.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^20.0.0"
   }
 }
